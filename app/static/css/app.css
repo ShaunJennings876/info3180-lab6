@@ -5,3 +5,53 @@ body {
 footer  {
     padding-top: 20px;
 }
+
+.news__list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.news__item{
+  display: flex;
+  border-top: 5px solid green;
+  border-radius: 5px;
+  flex-direction: column;
+  width: 20%;
+  /*height: 300px;*/
+  margin-bottom: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+  box-shadow: 1px 1px 10px #A9A9A9;
+}
+
+.item-title{
+  flex-grow: 1;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.item-image{
+  flex-grow: 3;
+  padding: 5px 5px 5px 5px;
+}
+
+.item-desc{
+  flex-grow: 1;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.item-image img{
+  max-width: 100%;
+  max-height: 100%;
+
+}
+
+.item-desc p{
+  height: auto;
+}
+
+.item-title h4{
+  height: auto;
+}

@@ -96,7 +96,7 @@ const NewsList = Vue.component('news-list', {
     methods: {
         searchNews: function() {
         let self = this;
-        fetch('https://newsapi.org/v2/everything?q='+ self.searchTerm + '&language=en&apiKey=01de3d0ba92849fdac93e795ba5fbd1e')
+        fetch('https://newsapi.org/v2/everything?q='+ self.searchTerm + '&language=en&apiKey=<your-api-key>')
           .then(function(response) {
             return response.json();
           })
